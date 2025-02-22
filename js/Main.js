@@ -34,6 +34,17 @@ document.addEventListener("DOMContentLoaded", function () {
     fadeInOnScroll();
 });
 
+// Disable right-click and drag on the profile image
+const profileImage = document.querySelector('.profile-bg img');
+
+profileImage.addEventListener('contextmenu', (e) => {
+    e.preventDefault(); // Disable right-click
+});
+
+profileImage.addEventListener('dragstart', (e) => {
+    e.preventDefault(); // Disable drag
+});
+
 // Main.js (Frontend Code)
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();  // Prevent form from submitting the default way
