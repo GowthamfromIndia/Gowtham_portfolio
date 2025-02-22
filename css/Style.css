@@ -523,6 +523,10 @@ nav ul li a:hover {
     .logo h2 {
         font-size: 18px;
     }
+
+    nav ul {
+        gap: 1px;
+    }
 }
 
 /* Add touch-action for better scrolling */
