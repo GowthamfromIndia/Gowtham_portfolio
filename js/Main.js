@@ -45,6 +45,15 @@ profileImage.addEventListener('dragstart', (e) => {
     e.preventDefault(); // Disable drag
 });
 
+function confirmDownload() {
+    const isConfirmed = confirm("Are you sure you want to download the resume?");
+    if (isConfirmed) {
+        return true; // Proceed with download
+    } else {
+        return false; // Cancel download
+    }
+}
+
 // Main.js (Frontend Code)
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();  // Prevent form from submitting the default way
