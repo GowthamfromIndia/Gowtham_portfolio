@@ -187,12 +187,15 @@ nav ul li a:hover {
 .profile-bg {
     width: 280px;
     height: 280px;
-    background: #2c3e50;
-    border-radius: 50%; /* Ensures a perfect circle */
+    background: transparent; /* Make the background transparent */
+    border-radius: 50%; /* Makes it a perfect circle */
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Ensures the image doesn't overflow */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    border: 2px solid black;
 }
 
 .profile-bg img {
@@ -426,6 +429,7 @@ nav ul li a:hover {
     .profile-bg {
         width: 220px;
         height: 220px;
+        border: 2px solid black;
     }
 
     .profile-bg img {
@@ -474,6 +478,7 @@ nav ul li a:hover {
     .profile-bg {
         width: 180px;
         height: 180px;
+        border: 2px solid black;
     }
 
     .profile-bg img {
