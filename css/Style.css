@@ -183,6 +183,9 @@ nav ul li a:hover {
     align-items: center;
 }
 
+css
+Copy
+
 /* Profile Image Blob Shape */
 .profile-bg {
     width: 280px;
@@ -193,6 +196,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     clip-path: path("M140 0C216 0 280 64 280 140C280 216 216 280 140 280C64 280 0 216 0 140C0 64 64 0 140 0Z");
+    overflow: hidden; /* Ensure the image doesn't overflow */
 }
 
 .profile-bg img {
@@ -200,6 +204,7 @@ nav ul li a:hover {
     height: 270px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center; /* Ensure the image is centered */
 }
 
 /* Social Links */
@@ -404,8 +409,12 @@ nav ul li a:hover {
 
     /* Mobile Home Section */
     .home-container {
-        padding: 20px;
-        margin-top: 60px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image {
+        margin-top: 20px;
     }
 
     .content h1 {
@@ -460,6 +469,16 @@ nav ul li a:hover {
 
 @media (max-width: 480px) {
     /* Smaller Screens Adjustments */
+    .profile-bg {
+        width: 180px;
+        height: 180px;
+    }
+
+    .profile-bg img {
+        width: 170px;
+        height: 170px;
+    }
+    
     .content h1 {
         font-size: 24px;
     }
