@@ -403,7 +403,7 @@ nav ul li a:hover {
 
     nav ul {
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 5px;
     }
 
     /* Mobile Home Section */
@@ -522,6 +522,11 @@ nav ul li a:hover {
     /* Hide Logo Text on Very Small Screens */
     .logo h2 {
         font-size: 18px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 5px;
     }
 }
 
