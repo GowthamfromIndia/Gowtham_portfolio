@@ -183,9 +183,6 @@ nav ul li a:hover {
     align-items: center;
 }
 
-css
-Copy
-
 /* Profile Image Blob Shape */
 .profile-bg {
     width: 280px;
@@ -409,12 +406,18 @@ Copy
 
     /* Mobile Home Section */
     .home-container {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: column; /* Stack elements vertically */
+        text-align: center; /* Center-align text */
     }
 
+
     .image {
-        margin-top: 20px;
+        order: -1; /* Move the image above the content */
+        margin-bottom: 20px; /* Add spacing between image and content */
+    }
+
+    .content {
+        order: 1; /* Move the content below the image */
     }
 
     .content h1 {
@@ -478,7 +481,7 @@ Copy
         width: 170px;
         height: 170px;
     }
-    
+
     .content h1 {
         font-size: 24px;
     }
