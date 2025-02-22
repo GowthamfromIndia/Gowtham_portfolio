@@ -43,7 +43,7 @@ profileImage.addEventListener('contextmenu', (e) => {
 
 profileImage.addEventListener('dragstart', (e) => {
     e.preventDefault(); // Disable drag
-});
+}); 
 
 // Main.js (Frontend Code)
 document.getElementById('contact-form').addEventListener('submit', function(event) {
