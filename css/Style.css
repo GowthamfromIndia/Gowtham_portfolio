@@ -429,12 +429,12 @@ nav ul li a:hover {
     .profile-bg {
         width: 220px;
         height: 220px;
-        border: 2px solid black;
+        border: px solid black;
     }
 
     .profile-bg img {
-        width: 210px;
-        height: 210px;
+        width: 220px;
+        height: 220px;
     }
 
     /* Mobile Skills Grid */
@@ -482,8 +482,8 @@ nav ul li a:hover {
     }
 
     .profile-bg img {
-        width: 170px;
-        height: 170px;
+        width: 180px;
+        height: 180px;
     }
 
     .content h1 {
