@@ -390,9 +390,6 @@ nav ul li a:hover {
 @media (max-width: 768px) {
     /* Improved Mobile Header */
     header {
-        padding: 10px 20px;
-        flex-direction: column;
-        align-items: flex-start;
         flex-direction: column; /* Stack logo and nav vertically */
         padding: 10px;
     }
