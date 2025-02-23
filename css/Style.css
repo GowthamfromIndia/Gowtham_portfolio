@@ -403,7 +403,7 @@ nav ul li a:hover {
 
     nav ul {
         flex-wrap: wrap;
-        gap: 3px;
+        gap: 5px;
     }
 
     /* Mobile Home Section */
